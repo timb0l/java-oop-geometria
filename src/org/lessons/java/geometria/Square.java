@@ -14,8 +14,11 @@ public class Square {
     int perimiterSquare(){
         return (width + height) * 2;
     }
+
+/*
 //bonus draw
     void draw(){
+*/
 
     }
 }
