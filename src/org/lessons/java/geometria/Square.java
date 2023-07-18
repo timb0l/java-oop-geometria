@@ -19,16 +19,13 @@ public class Square {
     void draw(){
         for (int i = 0; i <= width; i++){
             for (int j = 0; j <= height; j++){
-                if (i == 0 || i == width-1 || j == 0 || j == height-1){
-                    System.out.println("[o]");
-                }
-                else {
-                    System.out.println(" ");
-                }
+                if (i == 0 || i == width || j == 0 || j == height)
+                    System.out.print("o");
+                else
+                    System.out.print(" ");
             }
-        }
         System.out.println();
-
+        }
     }
 
 }
