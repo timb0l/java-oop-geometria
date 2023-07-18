@@ -10,15 +10,25 @@ public class Square {
     int areaSquare(){
         return width * height;
     }
-//parameter
+//perimiter
     int perimiterSquare(){
         return (width + height) * 2;
     }
-<<<<<<<<< Temporary merge branch 1
-=========
+
 //bonus draw
     void draw(){
+        for (int i = 0; i <= width; i++){
+            for (int j = 0; j <= height; j++){
+                if (i == 0 || i == width-1 || j == 0 || j == height-1){
+                    System.out.println("[o]");
+                }
+                else {
+                    System.out.println(" ");
+                }
+            }
+        }
+        System.out.println();
 
     }
->>>>>>>>> Temporary merge branch 2
+
 }
